@@ -60,3 +60,62 @@ Baixe o arquivo .pbix e abra-o utilizando Power BI desktop, o usuário pode inte
 
 ![Dashboard Overview](imagens/Tooltips.png)
 
+# English
+
+## Overview
+This dashboard was developed to analyze a company’s financial performance and can be used by financial managers and executives to support data-driven decision-making based on the performance of products, segments, and regions.
+
+## Project Objectives
+- Monitor overall financial performance
+- Analyze profit evolution over time
+- Compare products, segments, and countries
+- Evaluate growth metrics (MoM, YoY, YTD)
+
+## Dataset
+The dataset was provided by Microsoft (Microsoft Financial Sample) and contains approximately 700 records with fictional data, including sales, profit, segments, countries, and dates.
+
+## Data Modeling
+A star schema was applied to improve performance and model clarity.
+The original dataset was separated into a fact table ('F_Financials') and dimension tables ('D_Country', 'D_DBand', 'D_Product', 'D_Segment'), along with the creation of a dedicated calendar table ('D_Calendar') to support time intelligence analysis.
+
+## DAX Measures Implemented
+- Revenue
+- Revenue YTD
+- Gross Profit
+- Net Profit
+- Net Profit YTD
+- Profit Margins (%)
+- Month-over-Month Growth (MoM)
+- Year-over-Year Growth (YoY)
+
+## Key Analysis Available
+- Monthly evolution of Revenue and Profit
+- Performance comparison by Product
+- Performance comparison by Country
+- Performance comparison by Segment
+
+## Visualizations Used
+KPI cards were used to highlight key financial metrics.
+Line charts were applied for time-based trend analysis, supported by custom tooltips to provide additional detail without cluttering the main view.
+Bar charts were used to enable clear comparisons across categories.
+
+## Tools Used
+- Power BI Desktop
+- DAX
+- Power Query
+- GitHub
+- Excel
+
+## How to Use This Project
+Download the .pbix file and open it using Power BI Desktop.
+Users can interact with the visuals by selecting bars or hovering over charts to access detailed insights through custom tooltips.
+
+## Key Learnings
+- Practical application of dimensional modeling (star schema), correctly separating fact and dimension tables to ensure performance, clarity, and scalability.
+- Creation and use of a dedicated calendar table to enable consistent and accurate time intelligence calculations such as YTD, MoM, and YoY.
+- Development of financial DAX measures, including Revenue, Gross Profit, Net Profit, and Margins, prioritizing calculated measures over pre-existing dataset columns.
+- Implementation of time-based growth analysis using DAX time intelligence functions to evaluate performance across months and years.
+- Use of custom tooltips to deepen analysis without overloading the main dashboard, improving overall user experience.
+- Dashboard layout organization following data visualization best practices, with clear visual hierarchy, KPIs positioned at the top, and appropriate chart selection.
+- Development of business-oriented storytelling, transforming financial data into actionable insights for decision-makers.
+- Consolidation of Power Query best practices for data cleaning, standardization, and preparation prior to modeling.
