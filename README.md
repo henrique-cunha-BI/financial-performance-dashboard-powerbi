@@ -54,3 +54,8 @@ Baixe o arquivo .pbix e abra-o utilizando Power BI desktop, o usuário pode inte
 - Organização do layout seguindo boas práticas de data visualization, com foco em KPIs no topo, hierarquia visual clara e escolha adequada de gráficos para cada tipo de análise.
 - Desenvolvimento de storytelling orientado ao negócio, transformando dados financeiros em insights acionáveis para gestores e tomadores de decisão.
 - Consolidação de boas práticas no uso do Power Query para tratamento e padronização dos dados antes da modelagem.
+
+## Dashboard Preview
+![Dashboard Overview](imagens/Dashboard.png)
+
+![Dashboard Overview](imagens/Tooltips.png)
