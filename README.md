@@ -55,6 +55,9 @@ Baixe o arquivo .pbix e abra-o utilizando Power BI desktop, o usuário pode inte
 - Desenvolvimento de storytelling orientado ao negócio, transformando dados financeiros em insights acionáveis para gestores e tomadores de decisão.
 - Consolidação de boas práticas no uso do Power Query para tratamento e padronização dos dados antes da modelagem.
 
+## Dashboard Online
+Acesse a Dashboard interativa clicando aqui: [Clique Para Ver a Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDE1MzY2YzItOTJlOC00NzM0LWEzNDQtYWE0ZGJjNWMxOGMzIiwidCI6IjM2ODZiNmU4LWI3OTgtNDBkYy04NGI4LTkwOTNkN2FiZWIzYiJ9)
+
 ## Dashboard Preview
 ![Dashboard Overview](imagens/Dashboard.PNG)
 
@@ -110,6 +113,9 @@ Bar charts were used to enable clear comparisons across categories.
 Download the .pbix file and open it using Power BI Desktop.
 Users can interact with the visuals by selecting bars or hovering over charts to access detailed insights through custom tooltips.
 
+## Live Dashboard
+Access the interactive Power BI dashboard here: [Click to view dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDE1MzY2YzItOTJlOC00NzM0LWEzNDQtYWE0ZGJjNWMxOGMzIiwidCI6IjM2ODZiNmU4LWI3OTgtNDBkYy04NGI4LTkwOTNkN2FiZWIzYiJ9)
+
 ## Key Learnings
 - Practical application of dimensional modeling (star schema), correctly separating fact and dimension tables to ensure performance, clarity, and scalability.
 - Creation and use of a dedicated calendar table to enable consistent and accurate time intelligence calculations such as YTD, MoM, and YoY.
@@ -119,3 +125,4 @@ Users can interact with the visuals by selecting bars or hovering over charts to
 - Dashboard layout organization following data visualization best practices, with clear visual hierarchy, KPIs positioned at the top, and appropriate chart selection.
 - Development of business-oriented storytelling, transforming financial data into actionable insights for decision-makers.
 - Consolidation of Power Query best practices for data cleaning, standardization, and preparation prior to modeling.
+
