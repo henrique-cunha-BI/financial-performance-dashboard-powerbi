@@ -56,6 +56,7 @@ Baixe o arquivo .pbix e abra-o utilizando Power BI desktop, o usuário pode inte
 - Consolidação de boas práticas no uso do Power Query para tratamento e padronização dos dados antes da modelagem.
 
 ## Dashboard Preview
-![Dashboard Overview](imagens/Dashboard.png)
+![Dashboard Overview](imagens/Dashboard.PNG)
 
 ![Dashboard Overview](imagens/Tooltips.png)
+
